@@ -5,8 +5,22 @@
 
 #include <stdio.h>
 
-int main() {
+int main()
+{
     // 이곳에 코드를 작성해주세요!
-
+    int n, result = 0;
+    double n2;
+    while (result == 0)
+    {
+        scanf("%d", &n);
+        if (n > 0)
+        {
+            n2 = (1 + n) / 2.0 * n;
+            printf("%d", (int)n2);
+            result = 1;
+        }
+        else
+            printf("X\n");
+    }
     return 0;
 }

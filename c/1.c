@@ -5,8 +5,16 @@
 
 #include <stdio.h>
 
-int main() {
+int main()
+{
     // 이곳에 코드를 작성해주세요!
+    int number;
+    scanf("%d", &number);
 
+    for (int i = 0; i < 3; i++)
+    {
+        printf("%d", number % 10);
+        number /= 10;
+    }
     return 0;
 }

@@ -5,8 +5,26 @@
 
 #include <stdio.h>
 
-int main() {
+int main()
+{
     // 이곳에 코드를 작성해주세요!
+    char alpha;
 
+    scanf("%c", &alpha);
+
+    switch (alpha)
+    {
+    case 'a':
+    case 'e':
+    case 'i':
+    case 'o':
+    case 'u':
+        printf("O");
+        break;
+
+    default:
+        printf("X");
+        break;
+    }
     return 0;
 }
