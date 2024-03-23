@@ -26,5 +26,6 @@ int main()
         printf("X");
         break;
     }
+
     return 0;
 }

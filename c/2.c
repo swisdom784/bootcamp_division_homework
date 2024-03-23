@@ -14,5 +14,6 @@ int main()
     if (age >= 61)
         printf("DISCOUNT\n");
     printf("BOARD");
+
     return 0;
 }

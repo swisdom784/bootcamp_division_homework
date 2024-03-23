@@ -9,8 +9,10 @@ int main()
 {
     // 이곳에 코드를 작성해주세요!
     int month, year;
+
     scanf("%d", &year);
     scanf("%d", &month);
+
     switch (month)
     {
     case 4:
@@ -31,5 +33,6 @@ int main()
         printf("31");
         break;
     }
+
     return 0;
 }

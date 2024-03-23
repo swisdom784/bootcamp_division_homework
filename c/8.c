@@ -18,14 +18,7 @@ int main()
     {
         fact *= i;
     }
-    /*
-        printf("# %d: 1부터 %d까지의 합\n", (int)sum, n);
-        printf("# %d: %d! (", fact, n);
-        for (int i = 1; i < n; i++)
-        {
-            printf("%d * ", i);
-        }
-        printf("%d)\n", n);*/
     printf("%d\n%d", (int)sum, fact);
+
     return 0;
 }

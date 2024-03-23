@@ -17,5 +17,6 @@ int main()
         printf("X");
     else
         printf("O");
+
     return 0;
 }

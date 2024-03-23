@@ -10,6 +10,7 @@ int main()
     // 이곳에 코드를 작성해주세요!
     int n, result = 0;
     double n2;
+
     while (result == 0)
     {
         scanf("%d", &n);
@@ -22,5 +23,6 @@ int main()
         else
             printf("X\n");
     }
+
     return 0;
 }

@@ -16,5 +16,6 @@ int main()
         printf("%d", number % 10);
         number /= 10;
     }
+
     return 0;
 }
